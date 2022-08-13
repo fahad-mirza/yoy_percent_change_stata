@@ -2,8 +2,8 @@
 
 Trying out visualizing a year on year percentage change plot for multiple groups.
 
-The Data contains information on 3 types of school categories: High, Secondary, & Primary. The fourth category is the total of these 3. Year on year change is then
-calculated and then it is visualized.
+The Data contains information on 3 types of school categories: High, Secondary, & Primary. The fourth category is the total of these 3. Year on year change is
+calculated and then visualized.
 
 The code makes use of twoway bar plot with scheme from Asjad Naqvi's Schemepack (white_tableau).
 
