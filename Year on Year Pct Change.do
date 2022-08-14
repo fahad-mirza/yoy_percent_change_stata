@@ -45,7 +45,11 @@
 	label def year_n 18 "2016-2017", modify
 	label def year_n 19 "2017-2018", modify
 
-		
+	* Install relevant packages (One time only)
+	ssc install schemepack, replace
+	ssc install palettes, replace
+	ssc install colrspace, replace
+	
 	* Reshaping from Wide to Long format
 	reshape long students_sch_, i(year) j(category) string
 	
